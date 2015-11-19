@@ -11,7 +11,7 @@ function xrange($start, $end, $step = 1) {
 
 $range = xrange(0, $rangeSize);
 foreach($range as $index) {
-    if ($index % ($rangeSize / 10) == 0) {
+    if ($index % ($rangeSize / 10) == 0 && $printOutput) {
         echo logTime("Generator range test $index");
     }
 }

@@ -4,8 +4,9 @@
 require("functions.inc.php");
 
 $range = range(0, $rangeSize);
+$printOutput = printOutput();
 foreach($range as $index) {
-    if ($index % ($rangeSize / 10) == 0) {
+    if ($index % ($rangeSize / 10) == 0 && $printOutput) {
         echo logTime("Range test $index");
     }
 }

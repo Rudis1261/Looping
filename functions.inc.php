@@ -5,20 +5,29 @@ ini_set('memory_limit','5G');
 date_default_timezone_set('Africa/Johannesburg');
 $startTime = microtime(true);
 
-// Size to see the performance difference between vanilla PHP and Generators
-$rangeSize = 10000000;
-//$rangeSize = 100000;
-//$rangeSize = 1000;
+require_once('args.php');
+require_once('config.php');
+
+function printOutput() {
+    return (bool)arguments('output');
+}
+$printOutput = printOutput();
 
 function printStatus($var) {
+    echo logTime("");
+    echo logTime(str_repeat("=", 50));
     memoryUsage();
     execTime();
     checkGenerator($var);
+    echo logTime(str_repeat("=", 50));
 }
 
 function checkGenerator($var) {
+
+    echo logTime("[SIZE]\t\t\t" . sizeof($var));
     echo logTime("[TYPE]\t\t\t" . gettype($var));
-    echo logTime("[GENERATOR]\t\t" . (int)($var instanceof Iterator));
+    $generator = ($var instanceof Iterator) ? "YES" : "NO";
+    echo logTime("[GENERATOR]\t\t" . $generator);
 }
 
 function memoryUsage($message = "") {
@@ -29,9 +38,9 @@ function memoryUsage($message = "") {
 function execTime() {
     global $startTime;
     $endTIme = microtime(true);
-    echo logTime("[EXECUTION_TIME]\t\t" . Round($endTIme - $startTime, 2) . "s");
+    echo logTime("[EXECUTION_TIME]\t" . Round($endTIme - $startTime, 2) . "s");
 }
 
 function logTime($line = "") {
-    return date('[d/M/Y G:i:s]', time()) . $line . PHP_EOL;
+    return date('[d/M/Y G:i:s]', time()) . "\t" . $line . PHP_EOL;
 }
