@@ -1,0 +1,3 @@
+[submodule "ditaio"]
+	path = ditaio
+	url = git@github.com:drpain/ditaio.git
