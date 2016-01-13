@@ -24,7 +24,8 @@ function printStatus($var) {
 function checkGenerator($var) {
     echo logTime("[SIZE]\t\t\t" . sizeof($var));
     echo logTime("[TYPE]\t\t\t" . gettype($var));
-    echo logTime("[GENERATOR]\t\t" . (($var instanceof Iterator) ? "YES" : "NO"));
+    echo logTime("[GENERATOR]\t\t" . (($var instanceof Generator) ? "YES" : "NO"));
+    echo logTime("[ITERATOR]\t\t" . (($var instanceof Iterator) ? "YES" : "NO"));
 }
 
 function memoryUsage($message = "") {
