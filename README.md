@@ -33,7 +33,6 @@ cd Looping/docker/php7-cli
 
 **PHP56**
 ```shell
-#
 # Clone in
 git clone https://github.com/drpain/Looping.git
 
