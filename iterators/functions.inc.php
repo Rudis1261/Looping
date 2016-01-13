@@ -14,11 +14,11 @@ function printOutput() {
 $printOutput = printOutput();
 
 function printStatus($var) {
-    echo logTime(str_repeat("=", 50));
+    echo logTime(str_repeat("=", 80));
     memoryUsage();
     checkGenerator($var);
     execTime();
-    echo logTime(str_repeat("=", 50));
+    echo logTime(str_repeat("=", 80));
 }
 
 function checkGenerator($var) {
@@ -29,7 +29,8 @@ function checkGenerator($var) {
 }
 
 function memoryUsage($message = "") {
-    echo logTime("[PEAK_MEMORY_USAGE]\t" . echoBytes(memory_get_usage()));
+    echo logTime("[PEAK_MEMORY_USAGE]\t" . echoBytes(memory_get_peak_usage()));
+    echo logTime("[MEMORY_USAGE]\t\t" . echoBytes(memory_get_usage()));
 }
 
 function execTime() {
