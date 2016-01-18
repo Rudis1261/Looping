@@ -1,54 +1,37 @@
 The Art of War
-
- 
-
- 
-
-  
-
  The Art of War, by Sun Tzu
-
- 
-
  The Project Gutenberg eBook, The Art of War, by Sun Tzu
-
  This eBook is for the use of anyone anywhere at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org
-
  Title: The Art of War
-
  Author: Sun Tzu
-
  Translator: Lionel Giles
-
  Release Date: May 1994 [eBook 132] [Most recently updated December 28, 2005]
-
  Language: English
-
  Character set encoding: ISO-646-US (US-ASCII)
 
  ***START OF THE PROJECT GUTENBERG EBOOK THE ART OF WAR ***
 
  Note: Please see Project Gutenberg's eBook 17405 for a version of this eBook without the Giles commentary (that is, with only the Sun Tzu text).
 
- 
+
 
  SUN TZU ON THE ART OF WAR
 
- 
+
 
  THE OLDEST MILITARY TREATISE IN THE WORLD
 
- 
+
 
  Translated from the Chinese with Introduction
 
  and Critical Notes
 
- 
+
 
  BY
 
- 
+
 
  LIONEL GILES, M.A.
 
@@ -56,11 +39,11 @@ The Art of War
 
  in the British Museum
 
- 
+
 
  First Published in 1910
 
- 
+
 
  To my brother
 
@@ -78,11 +61,11 @@ The Art of War
 
  is affectionately dedicated.
 
- 
+
 
  Preface to the Project Gutenburg Etext
 
- 
+
 
  When Lionel Giles began his translation of Sun Tzu's ART OF WAR, the work was virtually unknown in Europe. Its introduction to Europe began in 1782 when a French Jesuit Father living in China, Joseph Amiot, acquired a copy of it, and translated it into French. It was not a good translation because, according to Dr. Giles, "[I]t contains a great deal that Sun Tzu did not write, and very little indeed of what he did."
 
@@ -94,7 +77,7 @@ The Art of War
 
  Dr. Giles produced a work primarily intended for scholars of the Chinese civilization and language. It contains the Chinese text of Sun Tzu, the English translation, and voluminous notes along with numerous footnotes. Unfortunately, some of his notes and footnotes contain Chinese characters; some are completely Chinese. Thus, a conversion to a Latin alphabet etext was difficult. I did the conversion in complete ignorance of Chinese (except for what I learned while doing the conversion). Thus, I faced the difficult task of paraphrasing it while retaining as much of the important text as I could. Every paraphrase represents a loss; thus I did what I could to retain as much of the text as possible. Because the 1910 text contains a Chinese concordance, I was able to transliterate proper names, books, and the like at the risk of making the text more obscure. However, the text, on the whole, is quite satisfactory for the casual reader, a transformation made possible by conversion to an etext. However, I come away from this task with the feeling of loss because I know that someone with a background in Chinese can do a better job than I did; any such attempt would be welcomed.
 
- 
+
 
  Bob Sutton
 
@@ -102,17 +85,17 @@ The Art of War
 
  bobs@gnu.ai.mit.edu
 
- 
+
 
  INTRODUCTION
 
  Sun Wu and his Book
 
- 
+
 
  Ssu-ma Ch`ien gives the following biography of Sun Tzu: [1]
 
- 
+
 
  Sun Tzu Wu was a native of the Ch`i State. His ART OF WAR brought him to the notice of Ho Lu, [2] King of Wu. Ho Lu said to him: "I have carefully perused your 13 chapters. May I submit your theory of managing soldiers to a slight test?"
 
@@ -234,7 +217,7 @@ The Art of War
 
  -------------------
 
- 
+
 
  I have found it difficult to glean much about the history of Sun Tzu's text. The quotations that occur in early authors go to show that the "13 chapters" of which Ssu-ma Ch`ien speaks were essentially the same as those now extant. We have his word for it that they were widely circulated in his day, and can only regret that he refrained from discussing them on that account. Sun Hsing-yen says in his preface: --
 
@@ -252,7 +235,7 @@ The Art of War
 
  ----------------
 
- 
+
 
  Sun Tzu can boast an exceptionally long distinguished roll of commentators, which would do honor to any classic. Ou-yang Hsiu remarks on this fact, though he wrote before the tale was complete, and rather ingeniously explains it by saying that the artifices of war, being inexhaustible, must therefore be susceptible of treatment in a great variety of ways.
 
@@ -304,7 +287,7 @@ The Art of War
 
  -----------------
 
- 
+
 
  Accustomed as we are to think of China as the greatest peace-loving nation on earth, we are in some danger of forgetting that her experience of war in all its phases has also been such as no modern State can parallel. Her long military annals stretch back to a point at which they are lost in the mists of time. She had built the Great Wall and was maintaining a huge standing army along her frontier centuries before the first Roman legionary was seen on the Danube. What with the perpetual collisions of the ancient feudal States, the grim conflicts with Huns, Turks and other invaders after the centralization of government, the terrific upheavals which accompanied the overthrow of so many dynasties, besides the countless rebellions and minor disturbances that have flamed up and flickered out again one by one, it is hardly too much to say that the clash of arms has never ceased to resound in one portion or another of the Empire.
 
@@ -340,7 +323,7 @@ The Art of War
 
  ------------
 
- 
+
 
  The following are the oldest Chinese treatises on war, after Sun Tzu. The notes on each have been drawn principally from the SSU K`U CH`UAN SHU CHIEN MING MU LU, ch. 9, fol. 22 sqq.
 
@@ -560,7 +543,7 @@ The Art of War
 
  74. See XIII. ss. 27, note. Further details on T`ai Kung will be found in the SHIH CHI, ch. 32 ad init. Besides the tradition which makes him a former minister of Chou Hsin, two other accounts of him are there given, according to which he would appear to have been first raised from a humble private station by Wen Wang.
 
- 
+
 
  I. LAYING PLANS
 
@@ -670,11 +653,11 @@ The Art of War
 
  [1] "Words on Wellington," by Sir. W. Fraser.
 
- 
+
 
  II. WAGING WAR
 
- 
+
 
  [Ts`ao Kung has the note: "He who wishes to fight must first count the cost," which prepares us for the discovery that the subject of the chapter is not what we might expect from the title, but is primarily a consideration of ways and means.]
 
@@ -746,11 +729,11 @@ The Art of War
 
  20. Thus it may be known that the leader of armies is the arbiter of the people's fate, the man on whom it depends whether the nation shall be in peace or in peril.
 
- 
+
 
  III. ATTACK BY STRATAGEM
 
- 
+
 
  1. Sun Tzu said: In the practical art of war, the best thing of all is to take the enemy's country whole and intact; to shatter and destroy it is not so good. So, too, it is better to recapture an army entire than to destroy it, to capture a regiment, a detachment or a company entire than to destroy them.
 
@@ -872,11 +855,11 @@ The Art of War
 
  [Chang Yu said: "Knowing the enemy enables you to take the offensive, knowing yourself enables you to stand on the defensive." He adds: "Attack is the secret of defense; defense is the planning of an attack." It would be hard to find a better epitome of the root-principle of war.]
 
- 
+
 
  IV. TACTICAL DISPOSITIONS
 
- 
+
 
  [Ts`ao Kung explains the Chinese meaning of the words for the title of this chapter: "marching and countermarching on the part of the two armies with a view to discovering each other's condition." Tu Mu says: "It is through the dispositions of an army that its condition may be discovered. Conceal your dispositions, and your condition will remain secret, which leads to victory,; show your dispositions, and your condition will become patent, which leads to defeat." Wang Hsi remarks that the good general can "secure success by modifying his tactics to meet those of the enemy."]
 
@@ -966,11 +949,11 @@ The Art of War
 
  20. The onrush of a conquering force is like the bursting of pent-up waters into a chasm a thousand fathoms deep.
 
- 
+
 
  V. ENERGY
 
- 
+
 
  1. Sun Tzu said: The control of a large force is the same principle as the control of a few men: it is merely a question of dividing up their numbers.
 
@@ -1062,11 +1045,11 @@ The Art of War
 
  [1] "Forty-one Years in India," chapter 46.
 
- 
+
 
  VI. WEAK POINTS AND STRONG
 
- 
+
 
  [Chang Yu attempts to explain the sequence of chapters as follows: "Chapter IV, on Tactical Dispositions, treated of the offensive and the defensive; chapter V, on Energy, dealt with direct and indirect methods. The good general acquaints himself first with the theory of attack and defense, and then turns his attention to direct and indirect methods. He studies the art of varying and combining these two methods before proceeding to the subject of weak and strong points. For the use of direct or indirect methods arises out of attack and defense, and the perception of weak and strong points depends again on the above methods. Hence the present chapter comes immediately after the chapter on Energy."]
 
@@ -1212,11 +1195,11 @@ The Art of War
 
  [1] See Col. Henderson's biography of Stonewall Jackson, 1902 ed., vol. II, p. 490.
 
- 
+
 
  VII. MANEUVERING
 
- 
+
 
  1. Sun Tzu said: In war, the general receives his commands from the sovereign.
 
@@ -1392,11 +1375,11 @@ The Art of War
 
  [2] For a number of maxims on this head, see "Marshal Turenne" (Longmans, 1907), p. 29.
 
- 
+
 
  VIII. VARIATION IN TACTICS
 
- 
+
 
  [The heading means literally "The Nine Variations," but as Sun Tzu does not appear to enumerate these, and as, indeed, he has already told us (V SS. 6-11) that such deflections from the ordinary course are practically innumerable, we have little option but to follow Wang Hsi, who says that "Nine" stands for an indefinitely large number. "All it means is that in warfare we ought to very our tactics to the utmost degree.... I do not know what Ts`ao Kung makes these Nine Variations out to be, but it has been suggested that they are connected with the Nine Situations" - of chapt. XI. This is the view adopted by Chang Yu. The only other alternative is to suppose that something has been lost--a supposition to which the unusual shortness of the chapter lends some weight.]
 
@@ -1492,11 +1475,11 @@ The Art of War
 
  [1] "Marshal Turenne," p. 50.
 
- 
+
 
  IX. THE ARMY ON THE MARCH
 
- 
+
 
  [The contents of this interesting chapter are better indicated in ss. 1 than by this heading.]
 
@@ -1740,11 +1723,11 @@ The Art of War
 
  [1] "Aids to Scouting," p. 26.
 
- 
+
 
  X. TERRAIN
 
- 
+
 
  [Only about a third of the chapter, comprising ss. ss. 1-13, deals with "terrain," the subject being more fully treated in ch. XI. The "six calamities" are discussed in SS. 14-20, and the rest of the chapter is again a mere string of desultory remarks, though not less interesting, perhaps, on that account.]
 
