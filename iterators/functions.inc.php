@@ -7,18 +7,22 @@ date_default_timezone_set('Africa/Johannesburg');
 
 require_once 'args.php';
 require_once 'config.php';
+require_once 'class.colors.php';
 
 function printOutput() {
     return (bool)arguments('output');
 }
 $printOutput = printOutput();
 
+define('COLS', 80);
+
 function printStatus($var) {
-    echo logTime(str_repeat("=", 80));
+    echo logTime(str_repeat(" ", COLS));
+    echo logTime(str_repeat("=", COLS));
     memoryUsage();
     checkGenerator($var);
     execTime();
-    echo logTime(str_repeat("=", 80));
+    echo logTime(str_repeat("=", COLS));
 }
 
 function checkGenerator($var) {
@@ -38,7 +42,13 @@ function execTime() {
 }
 
 function logTime($line = "") {
-    return date('[d/M/Y G:i:s]', time()) . "\t" . $line . PHP_EOL;
+    $colors = new Colors();
+    $line = (!empty($line)) ? date('[d/M/Y G:i:s]', time()) . "\t" . $line : "";
+    if (strlen($line) < COLS) {
+        $line .= str_repeat(" ", 4);
+    }
+    $output = $colors->getColoredString($line, "black", "light_gray");
+    return $output . PHP_EOL;
 }
 
 function echoBytes($size) {
