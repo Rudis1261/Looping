@@ -14,40 +14,49 @@ function printOutput() {
 }
 $printOutput = printOutput();
 
-define('COLS', 80);
+define('COLS', 40);
 
 function printStatus($var) {
-    echo logTime(str_repeat(" ", COLS));
-    echo logTime(str_repeat("=", COLS));
+    echo logTime("");
     memoryUsage();
     checkGenerator($var);
     execTime();
-    echo logTime(str_repeat("=", COLS));
+    echo logTime("");
 }
 
 function checkGenerator($var) {
-    echo logTime("[SIZE]\t\t\t" . sizeof($var));
-    echo logTime("[TYPE]\t\t\t" . gettype($var));
-    echo logTime("[GENERATOR]\t\t" . (($var instanceof Generator) ? "YES" : "NO"));
-    echo logTime("[ITERATOR]\t\t" . (($var instanceof Iterator) ? "YES" : "NO"));
+    echo logTime("  [SIZE]               " . sizeof($var));
+    echo logTime("  [TYPE]               " . gettype($var));
+    echo logTime("  [GENERATOR]          " . (($var instanceof Generator) ? "YES" : "NO"));
+    echo logTime("  [ITERATOR]           " . (($var instanceof Iterator) ? "YES" : "NO"));
 }
 
 function memoryUsage($message = "") {
-    echo logTime("[PEAK_MEMORY_USAGE]\t" . echoBytes(memory_get_peak_usage()));
-    echo logTime("[MEMORY_USAGE]\t\t" . echoBytes(memory_get_usage()));
+    echo logTime("  [PEAK_MEMORY_USAGE]  " . echoBytes(memory_get_peak_usage()));
+    echo logTime("  [MEMORY_USAGE]       " . echoBytes(memory_get_usage()));
 }
 
 function execTime() {
-    echo logTime("[EXECUTION_TIME]\t" . Round(microtime(true) - START_TIME, 2) . "s");
+    echo logTime("  [EXECUTION_TIME]     " . Round(microtime(true) - START_TIME, 2) . "s");
 }
 
-function logTime($line = "") {
-    $colors = new Colors();
-    $line = (!empty($line)) ? date('[d/M/Y G:i:s]', time()) . "\t" . $line : "";
-    if (strlen($line) < COLS) {
-        $line .= str_repeat(" ", 4);
+function logTime($line = "", $fgColor = false, $bgColor = false) {
+    if (empty($fgColor)) {
+        $fgColor = 'black';
     }
-    $output = $colors->getColoredString($line, "black", "light_gray");
+
+    if (empty($bgColor)) {
+        $bgColor = 'green';
+    }
+
+    $colors = new Colors();
+    $time = date('[d/M/Y G:i:s]', time()) . "";
+    $line = (!empty($line)) ? $time . $line : "";
+    if (strlen($line) < (COLS + strlen($time))) {
+        $padding = str_repeat(" ", (COLS + strlen($time)) - strlen($line));
+        $line .= $padding;
+    }
+    $output = $colors->getColoredString("  " . $line, $fgColor, $bgColor);
     return $output . PHP_EOL;
 }
 
