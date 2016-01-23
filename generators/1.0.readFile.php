@@ -14,9 +14,11 @@ function genReadFile($file) {
     }
 }
 
-foreach (genReadFile("The_Art_of_War.txt") as $line => $content) {
+foreach (genReadFile("small.txt") as $line => $content) {
     if ($line > 10) break;
     echo $line . ":" . $content;
 }
 
-printStatus(genReadFile("The_Art_of_War.txt"));
+echo logTime("");
+echo logTime("  [FILESIZE]           " . echoBytes(filesize('small.txt')));
+printStatus(genReadFile("small.txt"));

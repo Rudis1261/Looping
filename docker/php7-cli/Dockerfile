@@ -12,10 +12,9 @@ RUN ln -s /usr/share/zoneinfo/Africa/Johannesburg /etc/localtime
 RUN "date"
 
 # Modules
-RUN docker-php-ext-install opcache
+RUN docker-php-ext-install opcache sockets
 
 # Add sockets, and Expose the ports
 EXPOSE 5000
-RUN docker-php-ext-install sockets
 
 CMD ["php", "-a"]
