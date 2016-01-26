@@ -10,6 +10,8 @@ This is all the code you will need to be able to follow along with my presentati
 * Working examples
 * DockerFiles for both PHP56 and PHP7
 
+[![Talk on Youtube](http://i.imgur.com/YA2C6Ft.jpg)](https://youtu.be/jG6whaByUVE)
+
 ### Getting Started
 ```shell
 git clone https://github.com/drpain/Looping.git
