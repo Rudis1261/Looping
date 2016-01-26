@@ -6,9 +6,16 @@ This is all the code you will need to be able to follow along with my presentati
 
 **[VIEW PRESENTATION](https://docs.google.com/presentation/d/1ksW1xDlkPCdtRcnbSWQToKegI5Y4AyZezRh8L9vuGU0/edit?usp=sharing)**
 
-* With some interesting applications I have discovered along the  way.
+* With some interesting applications I have discovered along the way.
 * Working examples
 * DockerFiles for both PHP56 and PHP7
+
+### Getting Started
+```shell
+git clone https://github.com/drpain/Looping.git
+git submodule init
+git submodule update
+``` 
 
 ### Running Dockers.
 
